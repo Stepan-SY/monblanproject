@@ -1,0 +1,176 @@
+
+
+.header {
+    background-color: #ffffff;  
+}
+
+.nav_bar {
+    max-width: 935px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    flex-grow: 2;
+}
+
+.icon {
+    flex-grow: 1; 
+}
+
+.logo {
+    margin: 15px 70px 30px 70px;
+}
+
+.cap {
+    display: flex;
+    padding-top: 45px; 
+}
+
+.profile {
+    font-size: 35px;
+    font-family: 'MyriadPro Regular', sans-serif;
+}
+
+.status {
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'HelveticaNeue';
+    display: inline-block;
+    font-size: 17px;
+    margin: 2px 20px;
+    cursor: pointer;
+    background-color: white;
+    color: #4090db;
+    border: 1px solid #4090db;
+}
+
+.info li {
+    display: inline;
+    font-family: 'ProximaNova Bolt' , sans-serif;
+    font-size: 17px;
+    
+}
+
+ol, ul {
+    margin-top: 20px;
+}
+
+.info span {
+    font-weight: 600;
+}
+
+.content {
+    background-color: #fafafa;
+    color: #00ff87;
+}
+
+.content-wrapper{
+    max-width: 935px;
+    margin: 0 auto;
+    padding-top: 70px; 
+}
+
+.section-row {
+    font-size: 0;
+    margin: 0 -1%;   
+}
+
+.section-col {
+    width: 30%;
+    margin: 0 1% 30px;
+    display: inline-block;
+}
+
+.section-col img{
+    width: 100%;
+}
+
+.portfolio-item {
+    position: relative;
+    
+}
+
+.portfolio-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(00,00,00, 0.5);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.portfolio-item .text {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-size: 55px;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.upload {
+    font-size: 17px;
+    margin: 14px 52px;
+    font-family: "ProximaNova Semibolt";
+}
+
+.portfolio-item:hover:before,
+.portfolio-item:hover .text{
+    opacity: 1;
+}
+
+.items {
+    font-size: 17px;
+}
+
+.data, .like, .comments {
+    display: inline-block;  
+}
+
+.data p{
+    margin: 20px;
+}
+
+.like p{
+    margin: 15px;
+}
+
+.data, .like, .comments p{
+    margin-bottom: 12px;
+}
+
+.items img{
+    filter: brightness(0) invert(1);
+    width: 20px;
+    display: inline;
+}
+
+.footer {
+    max-width: 935px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.load {
+    position: relative;
+    padding: 8px 10px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'ProximaNova Regular' , sans-serif;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #fafafa;
+    color: #000;
+    border: 1px solid #000;
+}
